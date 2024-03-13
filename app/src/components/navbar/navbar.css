@@ -1,5 +1,44 @@
-.navbar{
+.navbar {
     height: 10vh;
     width: 100%;
-    background-color: yellow;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.topbar-right {
+    display: flex;
+    gap: 15%;
+    padding-right: 2%;
+}
+
+.top-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    font-size: small;
+    cursor: pointer;
+}
+
+.notification {
+    position: relative;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    color: white;
 }

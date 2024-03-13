@@ -1,5 +1,53 @@
 .sidebar{
     height:100vh;
     width: 15vw;
-    background-color: yellowgreen;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1%;
+    padding-top: 1%;
 }
+
+.sidebar-section{
+    height: 10%;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    justify-content: space-between;
+    padding-left: 5% ;
+    padding-right: 5%;
+    margin: 0 3% 0 3%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.section-container{
+    display: inline-flex;
+    align-items: center;
+    gap:15%;
+}
+
+.profile{
+    height: 80%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-weight: 500;
+    text-align: left;
+    font-size: large;
+}
+.info{
+    font-size: x-small;
+    font-weight: 200;
+    color: gray;
+}
+
+.dashboard{
+    border-radius: 10px;
+    background-color: #6793FF;
+    font-weight: 400;
+    color: white;
+}
+
